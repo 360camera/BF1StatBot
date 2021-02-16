@@ -1,0 +1,36 @@
+[BotConfig]
+
+# When using this bot replace the botToken and inviteLink vars to your bot's info
+
+botToken = your-bots-token-here
+inviteLink = your-bots-invite-link-here
+
+# Anything below this line shouldn't need to be changed
+
+footerMessage = BF1 Stats Bot by 360camera#5204
+networkingErrorMessage = A networking error occured while running this command.
+regionNames = {OC: Oceania, EU: Europe, NAm: North America, SAm: South America, AU: Australia, Asia: Asia, ALL: Total}
+githubLink = https://github.com/360camera/BF1StatsBot
+
+# A mirror for the API is api.jobse.space/bf1
+apiLink = https://api.gametools.network/bf1
+
+helpMessage = **$stats [player]** - Get general stats of a player, including game completion progress
+    **$cstats [player] [class]** - Get stats for a class for a player (Available classes: support, scout, medic, assault, pilot, tanker, cavalry)
+    **$gstats [player]** - Get stats for gamemodes for a player (Note: Unplayed gamemodes will not show)
+
+    **$wstats [player] [gun]** - Get stats for a specific weapon for a player
+    **$topweapons [player]** - Get top 25 weapons for a player
+    **$weapons** - Returns a list of all weapons in BF1 supported by this bot
+
+    **$vstats [player] [vehicle]** - Get stats for a specific vehicle for a player
+    **$topvehicles [player]** - Get top 25 vehicles for a player
+    **$vehicles** - Returns a list of all vehicles in BF1 supported by this bot
+
+    **$ssearch [name]** - Searches for servers with a given name
+    **$sdetails [name]** - Get detailed info about one server
+
+    **$pop** - Gets player counts for each region
+
+    **$invite** - A link to invite the bot to your own Discord sever
+    **$github** - A link to this bot's Github repository
